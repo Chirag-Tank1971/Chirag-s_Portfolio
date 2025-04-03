@@ -873,7 +873,7 @@ textarea:-ms-input-placeholder { color: #999999;}
 
 .header {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 90px;
   z-index: 1000;
   background: #000;
@@ -1056,8 +1056,9 @@ textarea:-ms-input-placeholder { color: #999999;}
 
 .skills {
   display: flex;
-  width: 600px;
-  flex-wrap: wrap; }
+  width: 100%;
+  flex-wrap: wrap;
+ }
   .skills__skill {
    
     padding: 1rem 2rem;
